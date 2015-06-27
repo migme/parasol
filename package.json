@@ -1,0 +1,63 @@
+{
+  "name": "parasol",
+  "version": "1.0.0",
+  "description": "Handy helpers for the Shadow DOM.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migme/parasol.git"
+  },
+  "keywords": [
+    "event",
+    "customevent",
+    "eventtarget"
+  ],
+  "author": "Sebastiaan Deckers <seb@ninja.sg>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/migme/parasol/issues"
+  },
+  "homepage": "https://github.com/migme/parasol#readme",
+  "devDependencies": {
+    "babel": "^5.6.12",
+    "babel-eslint": "^3.1.19",
+    "babelify": "^6.1.2",
+    "browserify-istanbul": "^0.2.1",
+    "chai": "^3.0.0",
+    "isparta": "^3.0.3",
+    "karma": "^0.12.37",
+    "karma-browserify": "^4.2.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.4.2",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-html-reporter": "^0.2.6",
+    "karma-json-reporter": "^1.1.0",
+    "karma-mocha": "^0.2.0",
+    "karma-sauce-launcher": "^0.2.11",
+    "karma-sinon-chai": "^1.0.0",
+    "karma-source-map-support": "^1.0.0",
+    "karma-spec-reporter": "0.0.19",
+    "minimist": "^1.1.1",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.3",
+    "sinon-chai": "^2.8.0",
+    "standard": "^4.3.3",
+    "webcomponents.js": "^0.7.2"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
