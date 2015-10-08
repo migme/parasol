@@ -2,6 +2,7 @@
 Handy helpers for the Shadow DOM.
 
 [![Codeship](https://img.shields.io/codeship/eaf30280-feba-0132-2745-1e5cacacb711.svg)](https://codeship.com/projects/88144)
+[![Dependency Status](https://gemnasium.com/migme/parasol.svg)](https://gemnasium.com/migme/parasol)
 [![npm](https://img.shields.io/npm/v/parasol.svg)](https://www.npmjs.com/package/parasol)
 [![npm](https://img.shields.io/npm/dm/parasol.svg)](https://www.npmjs.com/package/parasol)
 
